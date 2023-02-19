@@ -10,6 +10,7 @@ builds:
       - CGO_ENABLED=0
     flags:
       - -mod=mod
+      - -v
     ldflags:
       - -s -w -X 'osiris/cmd.Version={{.Versio}}'
 
