@@ -9,11 +9,13 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var Version string;
 
 
 var rootCmd = &cobra.Command{
 	Use:   "osiris",
 	Short: "Osiris designed to speed up bootstraping projects",
+	Version: Version,
 }
 
 func Execute() {
@@ -25,6 +27,7 @@ func Execute() {
 
 func init() {
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	rootCmd.SetVersionTemplate("v{{ .Version }}\n")
 }
 
 
