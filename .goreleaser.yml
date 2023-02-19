@@ -12,7 +12,7 @@ builds:
       - -mod=mod
       - -v
     ldflags:
-      - -s -w -X 'osiris/cmd.Version={{.Versio}}'
+      - -s -w -X 'osiris/cmd.Version={{.Version}}'
 
 release:
   prerelease: auto
