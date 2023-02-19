@@ -10,7 +10,7 @@ builds:
       - CGO_ENABLED=0
     flags:
       - -mod=mod
-      - ldflags=-X 'osiris/cmd.Version=$GITHUB_REF_NAME'
+      - ldflags="-X 'osiris/cmd.Version=$GITHUB_REF_NAME'"
 
 release:
   prerelease: auto
