@@ -13,6 +13,7 @@ builds:
       - -v
     ldflags:
       - -s -w -X 'osiris/cmd.Version={{.Version}}'
+      - -X 'main.Version={{.Version}}'
 
 release:
   prerelease: auto
