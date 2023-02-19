@@ -4,7 +4,7 @@ Copyright © 2023 Vladimir Voitenko vladimirdev635@gmail.com
 */
 package main
 
-import "cli-helper/cmd"
+import "osiris/cmd"
 
 func main() {
 	cmd.Execute()

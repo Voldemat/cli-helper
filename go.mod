@@ -1,4 +1,4 @@
-module cli-helper
+module osiris
 
 go 1.20
 

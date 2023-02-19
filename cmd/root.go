@@ -12,8 +12,8 @@ import (
 
 
 var rootCmd = &cobra.Command{
-	Use:   "cli-helper",
-	Short: "CLI helper designed to speed up bootstraping projects",
+	Use:   "osiris",
+	Short: "Osiris designed to speed up bootstraping projects",
 }
 
 func Execute() {
